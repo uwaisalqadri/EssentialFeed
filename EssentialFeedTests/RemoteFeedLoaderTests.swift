@@ -1,5 +1,5 @@
 //
-//  RemoteFeedLoadedTests.swift
+//  RemoteFeedLoaderTests.swift
 //  EssentialFeedTests
 //
 //  Created by Uwais Alqadri on 8/7/22.
@@ -7,26 +7,9 @@
 //
 
 import XCTest
+import EssentialFeed
 
-class RemoteFeedLoader {
-	let url: URL
-	let client: HTTPClient
-
-	init(url: URL, client: HTTPClient) {
-		self.url = url
-		self.client = client
-	}
-
-	func load() {
-		client.get(from: url)
-	}
-}
-
-protocol HTTPClient {
-	func get(from url: URL)
-}
-
-class RemoteFeedLoadedTests: XCTestCase {
+class RemoteFeedLoaderTests: XCTestCase {
 
 	func test_init_doesNotRequestDataFromURL() {
 		let (_, client) = makeSUT()
