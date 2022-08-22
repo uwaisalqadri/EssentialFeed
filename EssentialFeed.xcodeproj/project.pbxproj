@@ -102,8 +102,8 @@
 		9194B3BC289B47F2004C8F55 /* EssentialFeed */ = {
 			isa = PBXGroup;
 			children = (
-				912CAF7E289F849400763753 /* FeedAPI */,
 				9194B3D8289B4988004C8F55 /* FeedFeature */,
+				912CAF7E289F849400763753 /* FeedAPI */,
 				9194B3BD289B47F2004C8F55 /* EssentialFeed.h */,
 				9194B3BE289B47F3004C8F55 /* EssentialFeed.docc */,
 			);
