@@ -336,4 +336,4 @@ GET /image/{image-id}/comments
 
 ## App Architecture
 
-![](architecture.png)
+![](feed_architecture.png)
