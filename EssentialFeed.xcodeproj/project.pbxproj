@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		910FF7912969BB8500229635 /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910FF7902969BB8500229635 /* LocalFeedLoader.swift */; };
 		910FF7932969BBF100229635 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910FF7922969BBF100229635 /* FeedStore.swift */; };
+		910FF7952969C4BC00229635 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910FF7942969C4BC00229635 /* RemoteFeedItem.swift */; };
 		912CAF7D289F7BB900763753 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912CAF7C289F7BB900763753 /* LoadFeedFromRemoteUseCaseTests.swift */; };
 		912CAF80289F84AC00763753 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912CAF7F289F84AC00763753 /* RemoteFeedLoader.swift */; };
 		912CAF82289FB45E00763753 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912CAF81289FB45E00763753 /* HTTPClient.swift */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		910FF7902969BB8500229635 /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		910FF7922969BBF100229635 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
+		910FF7942969C4BC00229635 /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 		912CAF7C289F7BB900763753 /* LoadFeedFromRemoteUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromRemoteUseCaseTests.swift; sourceTree = "<group>"; };
 		912CAF7F289F84AC00763753 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		912CAF81289FB45E00763753 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				912CAF83289FB48A00763753 /* FeedItemsMapper.swift */,
 				912CAF81289FB45E00763753 /* HTTPClient.swift */,
 				9138D7DF296018AF00920C63 /* URLSessionHTTPClient.swift */,
+				910FF7942969C4BC00229635 /* RemoteFeedItem.swift */,
 			);
 			path = FeedAPI;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				912CAF82289FB45E00763753 /* HTTPClient.swift in Sources */,
 				9194B3D7289B4915004C8F55 /* FeedLoader.swift in Sources */,
 				912CAF84289FB48A00763753 /* FeedItemsMapper.swift in Sources */,
+				910FF7952969C4BC00229635 /* RemoteFeedItem.swift in Sources */,
 				9194B3D5289B48C6004C8F55 /* FeedItem.swift in Sources */,
 				910FF7912969BB8500229635 /* LocalFeedLoader.swift in Sources */,
 				9194B3BF289B47F3004C8F55 /* EssentialFeed.docc in Sources */,
